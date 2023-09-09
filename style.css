@@ -16,12 +16,23 @@ html {
 body {
   margin: 0;
   background: #000;
-
+  font-family: Monserrat, sans-serif;
 }
 
 /* --- Navigation Menu ------------------------------ */
 
+/* Overlay */
+.overlay {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100vw; /* for the entire screen */
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  
 
+}
 
 /* --- Menu Bars ------------------------------------ */
 
