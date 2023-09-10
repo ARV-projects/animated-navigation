@@ -51,3 +51,36 @@ nav2.addEventListener('click', toggleNav);
 nav3.addEventListener('click', toggleNav);
 nav4.addEventListener('click', toggleNav);
 nav5.addEventListener('click', toggleNav);
+
+
+// -------------------------------------------------
+// SIMPLIFIED CODE SIMPLIFIED CODE SIMPLIFIED CODE: |
+// -------------------------------------------------
+
+// const menuBars = document.getElementById('menu-bars');
+// const overlay = document.getElementById('overlay');
+// const navItems = [1, 2, 3, 4, 5].map(i => document.getElementById(`nav-${i}`));
+
+// function toggleNav() {
+//     menuBars.classList.toggle('change');
+//     overlay.classList.toggle('overlay-active');
+
+//     const toggleAnimation = (el, addClass, removeClass) => {
+//         el.classList.remove(removeClass);
+//         el.classList.add(addClass);
+//     };
+
+//     if (overlay.classList.contains('overlay-active')) {
+//         overlay.classList.remove('overlay-slide-left');
+//         overlay.classList.add('overlay-slide-right');
+
+//         navItems.forEach((nav, i) => toggleAnimation(nav, 'slide-in-' + (i + 1), 'slide-out-' + (i + 1)));
+//     } else {
+//         overlay.classList.remove('overlay-slide-right');
+//         overlay.classList.add('overlay-slide-left');
+
+//         navItems.forEach((nav, i) => toggleAnimation(nav, 'slide-out-' + (i + 1), 'slide-in-' + (i + 1)));
+//     }
+// }
+
+// [menuBars, ...navItems].forEach(item => item.addEventListener('click', toggleNav));
